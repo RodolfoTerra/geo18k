@@ -22,6 +22,7 @@
 		$subMenuFleur	= "Fleur";
 		$subMenuMosc	= "Moscow";
 		$subMenuSing	= "Singapura";
+		$subMenuLima	= "Vicenza";
 
 		$lnkMenuSelva 	= "City-Lights";
 		$lnkMenuDunas	= "Dunas";
@@ -29,7 +30,7 @@
 		$lnkMenuFleur	= "Fleur";
 		$lnkMenuMosc	= "Moscow";
 		$lnkMenuSing	= "Singapura";
-		$lnkMenuLima	= "DelLima";
+		$lnkMenuLima	= "Vicenza";
 
 	$menuCatalago = "CATÁLOGO";
 		$subMenuAneis 		 = "Anéis";
@@ -135,6 +136,18 @@
 	$AN880 = "Anel em ouro 18k com 22 diamantes de 1 mm e gema redonda.";
 	$NA725 = "Anel em ouro amarelo e diamantes.";
 	$AN802 = "Samovar - Anel em ouro amarelo e diamantes.";
+	$AN765A= "PAnel em ouro 18k com 42 diamantes de (0,5pt).";
+	$AN919 = "PAnel em ouro 18k com 48 diamantes de (0,5 pt).";
+	$AN899 = "PAnel em ouro 18k com 21 diamantes de (0,5 pt).";
+	$AN906 = "PAnel em ouro 18k com 11 diamantes de 1 pt.";
+	$AN908 = "PAnel em ouro 18k com 32 diamantes de 0,5 pt.";
+	$AN911 = "PAnel em ouro 18k com 4 diamantes de 0,5 pt.";
+	$AN912 = "PAnel em ouro 18k com 18 diamantes de 0,5 pt.";
+	$AN913 = "Anel em ouro 18k com 34 diamantes de 0,5 pt.";
+	$AN915 = "Panel em ouro 18k com 21 diamantes de 0,5 pt.";
+	$AN916 = "Panel em ouro 18k com 24 diamantes de 0,5 pt.";
+	$AN917 = "Panel em ouro 18k com 18 diamantes de 0,5 pt.";
+	$AN918 = "Panel em ouro 18k com 19 diamantes de 0,5 pt.";
 
 	#BRINCOS
 	$BR241 = "Brinco em ouro amarelo e diamantes.";
@@ -185,6 +198,10 @@
 	$BR875 = "Brinco em ouro 18k com 36 diamantes de 1 mm.";
 	$BR880 = "Brinco em ouro 18k com 54 diamantes de 1 mm e gema redonda.";
 	$BR805 = "Moscovita - Brincos em ouro 18k e diamantes.";
+	$BR899 = "Vicenza - Brincos em ouro 18k com 22 diamantes de 0,5 pt.";
+	$BR907 = "Vicenza - Brincos em ouro 18k com 16 diamantes de 0,5 pt.";
+	$BR911 = "Vicenza - Brincos em ouro 18k com 8 diamantes de 0,5 pt.";
+	$BR918 = "Vicenza - Brincos em ouro 18k com 26 diamantes de 0,5 pt.";
 
 	#CONJUNTOS
 	$C562 = "Conjunto de brinco e colar em nefrita e diamantes em ouro amarelo 18k.";
@@ -192,6 +209,9 @@
 	$C757A = "Conjunto de brinco e anel em diamantes em ouro amarelo 18k.";
 	$C798C = "Conjunto de brinco e anel em diamantes em ouro amarelo 18k.";
 	$C800 = "Conjunto de brinco e anel em diamantes em ouro amarelo 18k.";
+	$Conjunto911 = "Conjunto de brinco e anel com 12 diamantes em ouro amarelo.";
+	$Conjunto918 = "Conjunto de brinco e anel com 45 diamantes em ouro amarelo.";
+	$Conjunto899 = "Conjunto de brinco e anel com 43 diamantes em ouro amarelo.";
 
 	#PINGENTES
 	$PI128 = "Pingente em ouro 18k.";
@@ -212,15 +232,19 @@
 	#PULSEIRAS
 	$PUL81 = "Pulseira com 18 diamantes de 0,5 pt.";
 	$PUL19 = "Pulseira em ouro amarelo e diamantes.";
+	$PUL17 = "Pulseira em ouro 18k com 28 diamantes de 0,5 pt.";
+	$PUL494 = "Pulseira em ouro 18k com 18 diamantes de 0,5 pt.";
+	$PUL798CA = "Pulseira em ouro 18k com 24 diamantes de 0,5 pt.";
+
 
 
 if (preg_match("/en/", $url)){
 
-	if ((preg_match("/pt-Pingentes/", $url)) or (preg_match("/pt-Lancamentos/", $url))){
+	if ((preg_match("/pt-Pingentes/", $url)) or (preg_match("/pt-Lancamentos/", $url)) or (preg_match("/pt-Vicenza/", $url))){
 
 	}else{
 
-		if ((preg_match("/es-Pingentes/", $url)) or (preg_match("/es-Lancamentos/", $url))){
+		if ((preg_match("/es-Pingentes/", $url)) or (preg_match("/es-Lancamentos/", $url)) or (preg_match("/es-Vicenza/", $url))){
 
 		}else{
 
@@ -245,7 +269,7 @@ if (preg_match("/en/", $url)){
 		$subMenuFleur	= "Fleur";
 		$subMenuMosc	= "Moscow";
 		$subMenuSing	= "Singapore";
-		$lnkMenuLima	= "DelLima";
+		$subMenuLima	= "Vicenza";
 
 		$lnkMenuSelva 	= "City-Lights";
 		$lnkMenuDunas	= "Dunes";
@@ -253,6 +277,7 @@ if (preg_match("/en/", $url)){
 		$lnkMenuFleur	= "Fleur";
 		$lnkMenuMosc	= "Moscow";
 		$lnkMenuSing	= "Singapore";
+		$lnkMenuLima	= "Vicenza";
 
 	$menuCatalago = "CATALOG";
 		$subMenuAneis 		 = "Rings";
@@ -358,6 +383,18 @@ $AN878 = "18K GOLD RING.";
 $AN880 = "18k gold ring with 22 1mm diamonds and round gem.";
 $NA725 = "Ring in yellow gold and diamonds.";
 $AN802 = "Samovar - Ring in yellow gold and diamonds.";
+$AN765A= "Pring in white gold with 42 diamonds (0,5 pt).";
+$AN919 = "Pring in yellow gold with 48 diamonds (0,5 pt).";
+$AN899 = "Pring in yellow gold with 21 diamonds (0,5 pt).";
+$AN906 = "Pring in yellow gold with 11 diamonds (0,5 pt).";
+$AN908 = "Pring in yellow gold with 32 diamonds (0,5 pt).";
+$AN911 = "Pring in yellow gold with 4 diamonds (0,5 pt).";
+$AN912 = "Pring in yellow gold with 18 diamonds (0,5 pt).";
+$AN913 = "Pring in yellow gold with 34 diamonds (0,5 pt).";
+$AN915 = "Pring in yellow gold with 21 diamonds (0,5 pt).";
+$AN916 = "Pring in yellow gold with 24 diamonds (0,5 pt).";
+$AN917 = "Pring in yellow gold wit 18 diamonds (0,5 pt).";
+$AN918 = "Pring in yellow gold with 19 diamonds (0,5 pt).";
 
 $BR241 = "Earring in yellow gold and diamonds.";
 $BR346P = "Earring in yellow gold and diamonds.";
@@ -407,6 +444,10 @@ $BR873 = "Earring in 18k gold with 40 1mm diamonds and 2 diamonds of 1.30mm.";
 $BR875 = "Earring in 18k gold with 36 1mm diamonds.";
 $BR880 = "Earring in 18k gold with 54 1mm diamonds and round gem.";
 $BR805 = "Moscovita - 18k gold earring and diamonds.";
+$BR899 = "Vicenza - Earring in yellow gold with 22 diamonds (0,5 pt).";
+$BR907 = "Vicenza - Earring in yellow gold with 16 diamonds (0,5 pt).";
+$BR911 = "Vicenza - Earring in yellow gold with 8 diamonds (0,5 pt).";
+$BR918 = "Vicenza - Earring in yellow gold with 26 diamonds (0,5 pt).";
 
 
 $C562 = "Set of earrings and necklace in nephrite and diamonds in 18k yellow gold.";
@@ -414,6 +455,9 @@ $C720 = "Onyx and diamond ring set in 18k yellow gold.";
 $C757A = "18k Yellow Gold Diamond Earring and Ring Set";
 $C798C = "Earring and ring set in 18k yellow gold diamonds.";
 $C800 = "18k Yellow Gold Diamond Earring and Ring Set";
+$Conjunto911 = "Earring and ring set made of 12 diamonds in yellow gold.";
+$Conjunto918 = "Earring and ring set made of 45 diamonds in yellow gold.";
+$Conjunto899 = "Earring and ring set made of 43 diamonds in yellow gold.";
 
 $PI128 = "Pendant in 18k gold.";
 $PI429 = "Yellow gold and diamond pendant.";
@@ -432,12 +476,17 @@ $PI871 = "Pendant in 18k gold with 7 1mm diamonds.";
 
 $PUL81 = "Bracelet with 18 diamonds of 0.5 pt.";
 $PUL19 = "Bracelet in yellow gold and diamonds.";
+$PUL17 = "Bracelet in yellow gold with 28 diamonds (0,5 pt).";
+$PUL494 = "Bracelet in yellow gold with 18 diamonds (0,5 pt).";
+$PUL798CA = "Bracelet in yellow gold with 24 diamonds (0,5 pt).";
 
 		}
 
 	}
 
-}else if ((preg_match("/es/", $url)) or (preg_match("/es-Pingentes/", $url))){
+}
+
+if ((preg_match("/es/", $url)) or (preg_match("/es-Pingentes/", $url)) or (preg_match("/es-Vicenza/", $url))){
 
 	/* ES */
 	$idioma = "es";
@@ -459,7 +508,7 @@ $PUL19 = "Bracelet in yellow gold and diamonds.";
 		$subMenuFleur	= "Fleur";
 		$subMenuMosc	= "Moscú";
 		$subMenuSing	= "Singapur";
-		$lnkMenuLima	= "DelLima";
+		$subMenuLima	= "Vicenza";
 
 		$lnkMenuSelva 	= "City-Lights";
 		$lnkMenuDunas	= "Dunas";
@@ -467,6 +516,7 @@ $PUL19 = "Bracelet in yellow gold and diamonds.";
 		$lnkMenuFleur	= "Fleur";
 		$lnkMenuMosc	= "Moscu";
 		$lnkMenuSing	= "Singapur";
+		$lnkMenuLima	= "Vicenza";
 
 	$menuCatalago = "CATÁLOGO";
 		$subMenuAneis 		 = "Anillos";
@@ -572,6 +622,18 @@ $AN878 = "ANILLO EN ORO 18K.";
 $AN880 = "Anillo en oro 18k con 22 diamantes de 1 mm y gema redonda.";
 $NA725 = "Anillo en oro amarillo y diamantes.";
 $AN802 = "Samovar - Anillo en oro amarillo y diamantes.";
+$AN765A= "Panillo de oro blanco con 42 diamantes (0,5 pt).";
+$AN919 = "Panillo de oro amarillo con 48 diamantes (0,5 pt).";
+$AN899 = "Panillo de oro amarillo con 21 diamantes (0,5 pt).";
+$AN906 = "Panillo de oro amarillo con 11 diamantes (1 pt).";
+$AN908 = "Panillo de oro amarillo con 32 diamantes (0,5 pt).";
+$AN911 = "Panillo de oro amarillo con 4 diamantes (0,5 pt).";
+$AN912 = "Panillo de oro amarillo con 18 diamantes (0,5 pt).";
+$AN913 = "Panillo de oro amarillo con 34 diamantes (0,5 pt).";
+$AN915 = "Panillo de oro amarillo con 21 diamantes (0,5 pt).";
+$AN916 = "Panillo de oro amarillo con 24 diamantes (0,5 pt).";
+$AN917 = "Panillo de oro amarillo con 18 diamantes (0,5 pt).";
+$AN918 = "Panillo de oro amarillo con 19 diamantes (0,5 pt).";
 
 $BR241 = "Pendiente en oro amarillo y diamantes.";
 $BR346P = "Pendiente en oro amarillo y diamantes.";
@@ -621,12 +683,19 @@ $BR873 = "Pendiente en oro 18k con 40 diamantes de 1 mm y 2 diamantes de 1,30 mm
 $BR875 = "Pendiente en oro 18k con 36 diamantes de 1 mm.";
 $BR880 = "Pendiente en oro 18k con 54 diamantes de 1 mm y gema redonda.";
 $BR805 = "Moscovita - Pendiente de oro 18k y diamantes.";
+$BR899 = "Vicenza - Pendientes de oro amarillo con 22 diamantes (0,5 pt).";
+$BR907 = "Vicenza - Pendientes de oro amarillo con 16 diamantes (0,5 pt).";
+$BR911 = "Vicenza - Pendientes de oro amarillo con 8 diamantes (0,5 pt).";
+$BR918 = "Vicenza - Pendientes de oro amarillo con 26 diamantes (0,5 pt).";
 
 $C562 = "Conjunto de pendientes y collar en nefrita y diamantes en oro amarillo 18k.";
 $C720 = "Conjunto de pendientes y anillo en ónix y diamantes en oro amarillo 18k.";
 $C757A = "Conjunto de pendientes y anillo de diamantes en oro amarillo 18k.";
 $C798C = "Conjunto de pendientes y anillo de diamantes en oro amarillo 18k.";
 $C800 = "Conjunto de pendientes y anillo de diamantes en oro amarillo 18k.";
+$Conjunto911 = "Conjunto de pendientes y anillo de oro amarillo con 12 diamantes.";
+$Conjunto918 = "Conjunto de pendientes y anillo de oro amarillo con 45 diamantes.";
+$Conjunto899 = "Conjunto de pendientes y anillo de oro amarillo con 43 diamantes.";
 
 $PI128 = "Pendiente en oro 18k.";
 $PI429 = "Pendiente en oro amarillo y diamantes.";
@@ -645,6 +714,9 @@ $PI871 = "Pendiente en oro 18k con 7 diamantes de 1 mm.";
 
 $PUL81 = "Pulsera de 18 diamantes de 0,5 pt.";
 $PUL19 = "Pulsera en oro amarillo y diamantes.";
+$PUL17 = "Pulsera de oro amarillo con 28 diamantes (0,5 pt).";
+$PUL494 = "Pulsera de oro amarillo con 18 diamantes (0,5 pt).";
+$PUL798CA = "Pulsera de oro amarillo con 24 diamantes (0,5 pt).";
 
 }
 
@@ -658,6 +730,7 @@ $lnkMenuRio		= "Rio-de-Janeiro";
 $lnkMenuFleur	= "Fleur";
 $lnkMenuMosc	= "Moscow";
 $lnkMenuSing	= "Singapura";
+$lnkMenuLima	= "Vicenza";
 
 $lnkMenuAneis 		 = "Aneis";
 $lnkMenuBrincos 	 = "Brincos";

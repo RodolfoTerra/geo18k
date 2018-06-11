@@ -1,4 +1,6 @@
+<?php require('app/config/constants.php'); ?>
 <?php require('app/control/Controller.php'); ?>
+
 <html>
 	<head>
 		<title>GEO - Jóias 18K</title>
@@ -10,23 +12,23 @@
 		<script src="web/js/init.js"></script>
  -->		
 
-		<link rel="stylesheet" type="text/css" href="web/font-awesome/font-awesome.min.css" />
-		<link rel="stylesheet" href="web/css/skel-noscript.css" />
-		<link rel="stylesheet" href="web/css/style.css" />
-		<link rel="stylesheet" href="web/css/style-desktop.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $local; ?>web/font-awesome/font-awesome.min.css" />
+		<link rel="stylesheet" href="<?php echo $local; ?>web/css/skel-noscript.css" />
+		<link rel="stylesheet" href="<?php echo $local; ?>web/css/style.css" />
+		<link rel="stylesheet" href="<?php echo $local; ?>web/css/style-desktop.css" />
 
-		<link rel="stylesheet" type="text/css" href="web/imgstyle/css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="web/imgstyle/css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="web/imgstyle/css/set1.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $local; ?>web/imgstyle/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $local; ?>web/imgstyle/css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="<?php echo $local; ?>web/imgstyle/css/set1.css" />
 
-		<link rel="stylesheet" href="web/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="web/datatable/datatables.min.css" />
+		<link rel="stylesheet" href="<?php echo $local; ?>web/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="<?php echo $local; ?>web/datatable/datatables.min.css" />
 
-		<link rel="shortcut icon" href="web/images/favicon.png">
+		<link rel="shortcut icon" href="<?php echo $local; ?>web/images/favicon.png">
 
-		<script src="web/bootstrap/jquery/jquery-3.2.0.min.js"></script>
-		<script src="web/bootstrap/js/bootstrap.min.js"></script>
-		<script src="web/datatable/datatables.min.js"></script>
+		<script src="<?php echo $local; ?>web/bootstrap/jquery/jquery-3.2.0.min.js"></script>
+		<script src="<?php echo $local; ?>web/bootstrap/js/bootstrap.min.js"></script>
+		<script src="<?php echo $local; ?>web/datatable/datatables.min.js"></script>
 
 		<script type="text/javascript">
 		jQuery(document).ready(function(){

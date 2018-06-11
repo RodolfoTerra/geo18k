@@ -55,6 +55,10 @@
 							<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSing; ?>" class="text-wite"><?php echo $subMenuSing; ?></a>
 						</h5>
 
+						<h5>
+							<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>" class="text-wite"><?php echo $subMenuLima; ?></a>
+						</h5>
+
 					</div>
 
 					<div class="text-wite col-sm-12 col-md-3 text-left" style="border-right: thick solid rgba(255,255,255,0.2); border-width: 1px; min-height: 220px;">
@@ -82,6 +86,6 @@
 		<!-- Copyright -->
 		<div id="copyright">
 			<div class="container">
-				Design: <a href="https://hospedagem.zige.com.br/?utm_source=GeoJoias&utm_medium=LinkExterno&utm_campaign=Hospedagem" target="_blank" class="text-wite">ZIGE</a> &nbsp; | <a href="http://egency.com.br/" target="_blank" class="text-wite">Egency</a> &nbsp; |&nbsp; &copy; <a href="http://www.geo18k.com.br/" class="text-wite">geo18k.com.br</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://www.google.com/transparencyreport/safebrowsing/diagnostic/index.html#url=http://www.geo18k.com.br" target="_blank"><img src="../../web/images/google-safe-browsing.png" style="height: 30px; width: auto;" alt=""></a>
+				Design: <a href="https://hospedagem.zige.com.br/?utm_source=GeoJoias&utm_medium=LinkExterno&utm_campaign=Hospedagem" target="_blank" class="text-wite">ZIGE</a> &nbsp; | <a href="http://egency.com.br/" target="_blank" class="text-wite">Egency</a> &nbsp; |&nbsp; &copy; <a href="http://www.geo18k.com.br/" class="text-wite">geo18k.com.br</a> &nbsp;&nbsp; | &nbsp;&nbsp; <a href="https://www.google.com/transparencyreport/safebrowsing/diagnostic/index.html#url=http://www.geo18k.com.br" target="_blank"><img src="<?php echo $imagem; ?>web/images/google-safe-browsing.png" style="height: 30px; width: auto;" alt=""></a>
 			</div>
 		</div>

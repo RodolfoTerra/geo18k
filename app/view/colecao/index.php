@@ -6,7 +6,7 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner img-banner">
 			    <div class="item active">
-			      <img src="../../../web/images/colecao/<?php echo $idioma; ?><?php echo $link; ?>.jpg" class="img-responsive" alt="">
+			      <img src="<?php echo $image2; ?>web/images/colecao/<?php echo $idioma; ?><?php echo $link; ?>.jpg" class="img-responsive" alt="">
 			    </div>
 				<?php echo $texto; ?>
 			  </div>
@@ -38,7 +38,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN869.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN869.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN869 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN869; ?></p>
@@ -48,7 +48,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN875.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN875.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN875 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN875; ?></p>
@@ -58,7 +58,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN880.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN880.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN880 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN880; ?></p>
@@ -68,7 +68,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR869.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR869.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR869 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR869; ?></p>
@@ -81,7 +81,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR875.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR875.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR875 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR875; ?></p>
@@ -91,7 +91,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR880.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR880.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR880 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR880; ?></p>
@@ -101,7 +101,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI869.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Pingentes/PI869.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>PI869 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PI869; ?></p>
@@ -119,7 +119,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN868.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN868.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN868 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN868; ?></p>
@@ -129,7 +129,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN873.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN873.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN873 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN873; ?></p>
@@ -139,7 +139,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR872.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR872.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR872 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR872; ?></p>
@@ -149,7 +149,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR873.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR873.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR873 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR873; ?></p>
@@ -167,7 +167,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN832.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN832.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN832 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN832; ?></p>
@@ -177,7 +177,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN834.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN834.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN834 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN834; ?></p>
@@ -187,7 +187,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN835.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN835.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN835 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN835; ?></p>
@@ -197,7 +197,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN836.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN836.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN836 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN836; ?></p>
@@ -210,7 +210,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN837.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN837.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN837 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN837; ?></p>
@@ -220,7 +220,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN841.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN841.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN841 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN841; ?></p>
@@ -230,7 +230,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN842.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN842.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN842 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN842; ?></p>
@@ -240,7 +240,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN850.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN850.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN850 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN850; ?></p>
@@ -253,7 +253,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN857.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN857.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN857 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN857; ?></p>
@@ -263,7 +263,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI838.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Pingentes/PI838.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>PI838 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PI838; ?></p>
@@ -281,7 +281,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN870.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN870.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN870 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN870; ?></p>
@@ -291,7 +291,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN871.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN871.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN871 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN871; ?></p>
@@ -301,7 +301,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI871.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Pingentes/PI871.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>PI871 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PI871; ?></p>
@@ -321,7 +321,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN802.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN802.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN802 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN802; ?></p>
@@ -331,7 +331,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN803.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN803.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN803 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN803; ?></p>
@@ -341,7 +341,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN804.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN804.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN804 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN804; ?></p>
@@ -351,7 +351,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN805.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN805.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN805 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN805; ?></p>
@@ -364,7 +364,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN807.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN807.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN807 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN807; ?></p>
@@ -374,7 +374,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN811.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN811.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN811 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN811; ?></p>
@@ -384,7 +384,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR801.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR801.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR801 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR801; ?></p>
@@ -394,7 +394,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR803.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR803.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR803 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR803; ?></p>
@@ -407,7 +407,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR804.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR804.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR804 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR804; ?></p>
@@ -417,7 +417,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR805B.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR805B.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR805B <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR805B; ?></p>
@@ -427,7 +427,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR807.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR807.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR807 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR807; ?></p>
@@ -437,7 +437,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR811.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR811.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR811 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR811; ?></p>
@@ -450,7 +450,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR805.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR805.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR805 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR805; ?></p>
@@ -460,7 +460,7 @@
 					
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR814A.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR814A.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR814A <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR814A; ?></p>
@@ -470,7 +470,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN801.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN801.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN801 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN801; ?></p>
@@ -480,7 +480,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN808.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN808.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN808 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN808; ?></p>
@@ -493,7 +493,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR806.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR806.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR806 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR806; ?></p>
@@ -513,7 +513,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN757.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN757.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN757 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN757; ?></p>
@@ -523,7 +523,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN771.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN771.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN771 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN771; ?></p>
@@ -533,7 +533,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN780.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN780.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN780 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN780; ?></p>
@@ -543,7 +543,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR755.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR755.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR755 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR755; ?></p>
@@ -557,7 +557,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR756.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR756.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR756 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR756; ?></p>
@@ -567,7 +567,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR757A.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR757A.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR757A <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR757A; ?></p>
@@ -577,7 +577,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR757B.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR757B.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR757B <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR757B; ?></p>
@@ -587,7 +587,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR771.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR771.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR771 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR771; ?></p>
@@ -601,7 +601,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR772.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR772.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR772 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR772; ?></p>
@@ -611,7 +611,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR775.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR775.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR775 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR775; ?></p>
@@ -621,7 +621,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI771.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Pingentes/PI771.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>PI771 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PI771; ?></p>
@@ -631,7 +631,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI776.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Pingentes/PI776.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>PI776 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PI776; ?></p>
@@ -644,7 +644,7 @@
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR776.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR776.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR776 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR776; ?></p>
@@ -654,7 +654,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR780.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR780.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR780 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR780; ?></p>
@@ -664,7 +664,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Brincos/BR794.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR794.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>BR794 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR794; ?></p>
@@ -681,12 +681,133 @@
 			</div>
 			<?php } ?>
 
-			<?php if($link === "-DelLima") { ?>
+			<?php if($link === "-Vicenza") { ?>
 			<div id="content" class="container pull-center">
+
+<!-- 				<div class="col-md-12">
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN916.png" class="img-responsive" />
+							<figcaption>
+								<h2>AN916 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN916; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN917.png" class="img-responsive" />
+							<figcaption>
+								<h2>AN917 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN917; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN918.png" class="img-responsive" />
+							<figcaption>
+								<h2>AN918 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN918; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN919.png" class="img-responsive" />
+							<figcaption>
+								<h2>AN919 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $AN919; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+				</div>
+ -->
 				<div class="col-md-12">
-					<h2><?php echo $breve; ?></h2>
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR899.png" class="img-responsive" />
+							<figcaption>
+								<h2>BR899 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR899; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR907.png" class="img-responsive" />
+							<figcaption>
+								<h2>BR907 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR907; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR911.png" class="img-responsive" />
+							<figcaption>
+								<h2>BR911 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR911; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Brincos/BR918.png" class="img-responsive" />
+							<figcaption>
+								<h2>BR918 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $BR918; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
 				</div>
 
+<!-- 				<div class="col-md-12">
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Pulseiras/PUL17.png" class="img-responsive" />
+							<figcaption>
+								<h2>PUL17 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PUL17; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Pulseiras/PUL494.png" class="img-responsive" />
+							<figcaption>
+								<h2>PUL494 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PUL494; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+						<figure class="effect-zoe">
+							<img src="<?php echo $image2; ?>web/images/produtos/Pulseiras/PUL798CA.png" class="img-responsive" />
+							<figcaption>
+								<h2>PUL798CA <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 0.8em;"><?php echo $PUL798CA; ?></p>
+							</figcaption>	
+						</figure>
+					</div>	
+
+					<div class="grid col-sm-6 col-md-3">
+
+					</div>	
+
+				</div>
+ -->
 			</div>
 			<?php } ?>
 

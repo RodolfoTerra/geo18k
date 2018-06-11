@@ -6,23 +6,23 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner img-banner">
 			    <div class="item active">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>"><img src="../../../web/images/banner/city-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>"><img src="<?php echo $image2; ?>web/images/banner/city-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
 			    </div>
 
 			    <div class="item">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuMosc; ?>"><img src="../../../web/images/banner/del-lima-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuMosc; ?>"><img src="<?php echo $image2; ?>web/images/banner/del-lima-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
 
 			    <div class="item">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>"><img src="../../../web/images/banner/dunas-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>"><img src="<?php echo $image2; ?>web/images/banner/dunas-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
 
 			    <div class="item">
-			      	<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuFleur; ?>"><img src="../../../web/images/banner/fleur-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      	<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuFleur; ?>"><img src="<?php echo $image2; ?>web/images/banner/fleur-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
 
 			    <div class="item">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkLancamento; ?>"><img src="../../../web/images/banner/destaques-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="destaques"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkLancamento; ?>"><img src="<?php echo $image2; ?>web/images/banner/destaques-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="destaques"></a>
 			    </div>
 			  </div>
 
@@ -87,7 +87,7 @@
 						</div>
 
 						<div class="col-md-4">
-							<!-- <img src="../../../web/images/LOGO-GEO-<?php echo $idioma; ?>.png" class="img-responsive" alt="Responsive image"> -->
+							<!-- <img src="<?php echo $image2; ?>web/images/LOGO-GEO-<?php echo $idioma; ?>.png" class="img-responsive" alt="Responsive image"> -->
 							<br>
 							<h3><span class="fa fa-phone"> +55 (17) 3233-8944</span></h3>
 							<h3><span class="fa fa-whatsapp"> +55 (17) 9 9133-6990</span></h3>

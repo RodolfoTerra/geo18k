@@ -6,19 +6,23 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner img-banner">
 			    <div class="item active">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>"><img src="../../../web/images/banner/city-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>"><img src="<?php echo $image2; ?>web/images/banner/vicenza-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
 			    </div>
 
 			    <div class="item">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>"><img src="../../../web/images/banner/del-lima-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>"><img src="<?php echo $image2; ?>web/images/banner/city-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
 			    </div>
 
 			    <div class="item">
-			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>"><img src="../../../web/images/banner/dunas-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>"><img src="<?php echo $image2; ?>web/images/banner/del-lima-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
 
 			    <div class="item">
-			      	<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuFleur; ?>"><img src="../../../web/images/banner/fleur-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>"><img src="<?php echo $image2; ?>web/images/banner/dunas-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
+			    </div>
+
+			    <div class="item">
+			      	<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuFleur; ?>"><img src="<?php echo $image2; ?>web/images/banner/fleur-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
 			  </div>
 
@@ -83,7 +87,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuAneis; ?>">
-									<img src="../../../web/images/categoria/1-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img25"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/1-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img25"/>
 									<figcaption>
 										<h2><?php echo $subMenuAneis; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -98,7 +102,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe pull-center">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuBrincos; ?>">
-									<img src="../../../web/images/categoria/2-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/2-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
 									<figcaption>
 										<h2><?php echo $subMenuBrincos; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -113,7 +117,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe pull-right">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPingentes; ?>">
-									<img src="../../../web/images/categoria/4-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img25"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/4-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img25"/>
 									<figcaption>
 										<h2><?php echo $subMenuPingentes; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -131,7 +135,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuConjuntos; ?>">
-									<img src="../../../web/images/categoria/3-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/3-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
 									<figcaption>
 										<h2><?php echo $subMenuConjuntos; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -145,7 +149,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe pull-center">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPulseiras; ?>">
-									<img src="../../../web/images/categoria/5-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/5-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
 									<figcaption>
 										<h2><?php echo $subMenuPulseiras; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -160,7 +164,7 @@
 						<div class="col-sm-6 col-md-4">
 							<figure class="effect-zoe pull-right">
 								<a href="<?php echo $idioma; ?>-<?php echo $lnkLancamento; ?>">
-									<img src="../../../web/images/categoria/6-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
+									<img src="<?php echo $image2; ?>web/images/categoria/6-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="img26"/>
 									<figcaption>
 										<h2><?php echo $menuLancamento; ?> <span></span></h2>
 										<!-- <p class="icon-links">
@@ -175,33 +179,33 @@
 					
 				</div>
 				<div class="">
-					<a href="<?php echo $idioma; ?>-<?php echo $lnkLancamento; ?>"><img src="../../../web/images/banner/destaques-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="destaques"></a>
+					<a href="<?php echo $idioma; ?>-<?php echo $lnkLancamento; ?>"><img src="<?php echo $image2; ?>web/images/banner/destaques-<?php echo $idioma; ?>.png" class="img-responsive" alt="destaques"></a>
 				</div>
 				<br>
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN880.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Conjuntos/Conjunto911.png" class="img-responsive" />
 							<figcaption>
-								<h2>AN880 <span></span></h2>
-								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $AN880; ?></p>
+								<h2>911 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $Conjunto911; ?></p>
 							</figcaption>	
 						</figure>
 					</div>	
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Pingentes/PI871.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Conjuntos/Conjunto899.png" class="img-responsive" />
 							<figcaption>
-								<h2>PI871 <span></span></h2>
-								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $PI871; ?></p>
+								<h2>899 <span></span></h2>
+								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $Conjunto899; ?></p>
 							</figcaption>	
 						</figure>
 					</div>	
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN735.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN735.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN735 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $AN735; ?></p>
@@ -211,7 +215,7 @@
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
-							<img src="../../../web/images/produtos/Aneis/AN873.jpg" class="img-responsive" />
+							<img src="<?php echo $image2; ?>web/images/produtos/Aneis/AN873.jpg" class="img-responsive" />
 							<figcaption>
 								<h2>AN873 <span></span></h2>
 								<p class="description" style="line-height: 1em; font-size: 1.0em;"><?php echo $AN873; ?></p>

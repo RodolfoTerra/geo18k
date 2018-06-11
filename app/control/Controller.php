@@ -151,13 +151,21 @@ if (preg_match("/Singapura/", $url)){
 }
 
 /*DelLima*/
-if (preg_match("/DelLima/", $url)){
-	$link = "-DelLima";
+if (preg_match("/Vicenza/", $url)){
+	$link = "-Vicenza";
 	require("ControlColecao.php");
 	$pagina = 'app/view/colecao/index.php';
 
-	$texto = ' <div class="item active">
-			      <img src="../../../web/images/banner/del-lima-pt.jpg" class="img-responsive" alt="del-lima">
+	$texto = ' <div class="item">
+			      	<img src="../../../web/images/colecao/Vicenza-2.png" class="img-responsive" alt="del-lima">
+			    </div>
+
+			    <div class="item">
+			      <img src="../../../web/images/colecao/Vicenza-3.png" class="img-responsive" alt="destaques">
+			    </div>
+
+			    <div class="item">
+			      <img src="../../../web/images/colecao/Vicenza-4.png" class="img-responsive" alt="destaques">
 			    </div>';
 
 }

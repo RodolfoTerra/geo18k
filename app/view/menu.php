@@ -4,7 +4,7 @@
 					<div class="effect-men">
 						<!-- <li class="active"><a href="#">Início</a></li> -->
 						<a href="/" class="logo-header"><li class="">
-							<img src="../../web/images/logo-fundo-transparente.png" class="img-responsive" alt="">
+							<img src="<?php echo $imagem; ?>web/images/logo-fundo-transparente.png" class="img-responsive" alt="">
 						</li></a>
 
 						<span class="geo">
@@ -50,9 +50,27 @@
 							<li>
 								<h4 class=""><?php echo $menuColecao; ?></h4>
 							</li>
-							<figcaption class="coleF col-md-12">
+							<figcaption class="coleF col-md-12 pull-center">
 								<div class="col-md-12">
-									<div class="col-md-2" style="background-image: url(../../web/images/Selva.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1">
+
+									</div>
+									
+									<div class="col-md-1">
+										
+									</div>
+
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Vicenza.png); background-position: bottom; min-height: 150px;">
+										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>" class="text-wite">
+											<h3><br><br><br></h3>
+											<h4>
+												<span><?php echo $subMenuLima; ?></span>
+											</h4>
+										</a>
+
+									</div>
+
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Selva.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -61,7 +79,7 @@
 										</a>
 
 									</div>
-									<div class="col-md-2" style="background-image: url(../../web/images/Dunas.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Dunas.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -70,7 +88,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2" style="background-image: url(../../web/images/RJ.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/RJ.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuRio; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -79,7 +97,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2" style="background-image: url(../../web/images/Fleur.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Fleur.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuFleur; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -88,7 +106,7 @@
 										</a>
 										
 									</div>									
-									<div class="col-md-2" style="background-image: url(../../web/images/Moscow.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Moscow.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuMosc; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -97,7 +115,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2" style="background-image: url(../../web/images/Singapura.jpg); background-position: bottom; min-height: 150px;">
+									<div class="col-md-1" style="background-image: url(<?php echo $imagem; ?>web/images/Singapura.jpg); background-position: bottom; min-height: 150px;">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSing; ?>" class="text-wite">
 											<h3><br><br><br></h3>
 											<h4>
@@ -122,7 +140,7 @@
 								<div class="col-md-12">
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuAneis; ?>" class="">
-											<h5><img src="../../web/images/icon/anel-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/anel-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuAneis; ?></span>
 											</h4>
@@ -131,7 +149,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuBrincos; ?>" class="">
-											<h5><img src="../../web/images/icon/brincos-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/brincos-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuBrincos; ?></span>
 											</h4>
@@ -140,7 +158,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuConjuntos; ?>" class="">
-											<h5><img src="../../web/images/icon/conjunto-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/conjunto-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuConjuntos; ?></span>
 											</h4>
@@ -149,7 +167,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuGargantilhas; ?>" class="">
-											<h5><img src="../../web/images/icon/colar-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/colar-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuGargantilhas; ?></span>
 											</h4>
@@ -158,7 +176,7 @@
 									</div>									
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPingentes; ?>" class="">
-											<h5><img src="../../web/images/icon/pingentes-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/pingentes-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuPingentes; ?></span>
 											</h4>
@@ -167,7 +185,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPulseiras; ?>" class="">
-											<h5><img src="../../web/images/icon/pulseiras-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
+											<h5><img src="<?php echo $imagem; ?>web/images/icon/pulseiras-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
 												<span><?php echo $subMenuPulseiras; ?></span>
 											</h4>
@@ -265,7 +283,7 @@
 									<div class="col-md-3"></div>
 									<div class="col-md-2">
 										<a href="pt<?php echo $link; ?>" class="">
-											<h3><img src="../../web/images/icon/pt.png" alt=""></h3>
+											<h3><img src="<?php echo $imagem; ?>web/images/icon/pt.png" alt=""></h3>
 											<h4>
 												<span>Português</span>
 											</h4>
@@ -274,7 +292,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="en<?php echo $link; ?>" class="">
-											<h3><img src="../../web/images/icon/en.png" alt=""></h3>
+											<h3><img src="<?php echo $imagem; ?>web/images/icon/en.png" alt=""></h3>
 											<h4>
 												<span>English</span>
 											</h4>
@@ -283,7 +301,7 @@
 									</div>
 									<div class="col-md-2">
 										<a href="es<?php echo $link; ?>" class="">
-											<h3><img src="../../web/images/icon/es.png" alt=""></h3>
+											<h3><img src="<?php echo $imagem; ?>web/images/icon/es.png" alt=""></h3>
 											<h4>
 												<span>Español</span>
 											</h4>
