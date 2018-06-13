@@ -137,8 +137,9 @@
 								<h4 class=""><?php echo $menuCatalago; ?></h4>
 							</li>
 							<figcaption class="cataF col-md-12">
-								<div class="col-md-12">
-									<div class="col-md-2">
+								<div class="col-md-12 pull-center">
+									<div class="col-md-2"></div>
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuAneis; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/anel-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -147,7 +148,7 @@
 										</a>
 
 									</div>
-									<div class="col-md-2">
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuBrincos; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/brincos-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -156,7 +157,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2">
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuConjuntos; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/conjunto-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -165,7 +166,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2">
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuGargantilhas; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/colar-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -174,7 +175,7 @@
 										</a>
 										
 									</div>									
-									<div class="col-md-2">
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPingentes; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/pingentes-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -183,7 +184,7 @@
 										</a>
 										
 									</div>
-									<div class="col-md-2">
+									<div class="col-md-1">
 										<a href="<?php echo $idioma; ?>-<?php echo $lnkMenuPulseiras; ?>" class="">
 											<h5><img src="<?php echo $imagem; ?>web/images/icon/pulseiras-geo.png" alt="" style="max-height: 70px; width: auto;"> </h5>
 											<h4>
@@ -192,6 +193,7 @@
 										</a>
 										
 									</div>
+									<div class="col-md-3"></div>
 								</div>
 								<!-- <p class="description">Anel em ouro amarelo.</p> -->
 							</figcaption>			

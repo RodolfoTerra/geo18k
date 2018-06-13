@@ -41,15 +41,15 @@ if (preg_match("/City-Lights/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/City-Lights-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/City-Lights-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      	<img src="../../../web/images/colecao/City-Lights-2.jpg" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/City-Lights-2.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/City-Lights-3.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/City-Lights-3.jpg" class="img-responsive" alt="destaques">
 			    </div>';
 
 }
@@ -61,11 +61,11 @@ if (preg_match("/Dunas/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/Dunas-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/Dunas-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      	<img src="../../../web/images/colecao/Dunas-2.jpg" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/Dunas-2.jpg" class="img-responsive" alt="del-lima">
 			    </div>';
 
 }
@@ -77,15 +77,15 @@ if (preg_match("/Rio-de-Janeiro/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/Rio-de-Janeiro-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/Rio-de-Janeiro-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      	<img src="../../../web/images/colecao/Rio-de-Janeiro-2.jpg" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/Rio-de-Janeiro-2.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Rio-de-Janeiro-3.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Rio-de-Janeiro-3.jpg" class="img-responsive" alt="destaques">
 			    </div>';
 
 }
@@ -97,7 +97,7 @@ if (preg_match("/Fleur/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/Fleur-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/Fleur-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>';
 
 }
@@ -109,19 +109,19 @@ if (preg_match("/Moscow/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/Moscow-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/Moscow-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      	<img src="../../../web/images/colecao/Moscow-2.jpg" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/Moscow-2.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Moscow-3.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Moscow-3.jpg" class="img-responsive" alt="destaques">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Moscow-5.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Moscow-5.jpg" class="img-responsive" alt="destaques">
 			    </div>';
 
 }
@@ -133,19 +133,19 @@ if (preg_match("/Singapura/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      <img src="../../../web/images/colecao/Singapura-1.jpg" class="img-responsive" alt="del-lima">
+			      <img src="web/images/colecao/Singapura-1.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      	<img src="../../../web/images/colecao/Singapura-2.jpg" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/Singapura-2.jpg" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Singapura-3.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Singapura-3.jpg" class="img-responsive" alt="destaques">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Singapura-4.jpg" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Singapura-4.jpg" class="img-responsive" alt="destaques">
 			    </div>';
 
 }
@@ -157,15 +157,15 @@ if (preg_match("/Vicenza/", $url)){
 	$pagina = 'app/view/colecao/index.php';
 
 	$texto = ' <div class="item">
-			      	<img src="../../../web/images/colecao/Vicenza-2.png" class="img-responsive" alt="del-lima">
+			      	<img src="web/images/colecao/Vicenza-2.png" class="img-responsive" alt="del-lima">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Vicenza-3.png" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Vicenza-3.png" class="img-responsive" alt="destaques">
 			    </div>
 
 			    <div class="item">
-			      <img src="../../../web/images/colecao/Vicenza-4.png" class="img-responsive" alt="destaques">
+			      <img src="web/images/colecao/Vicenza-4.png" class="img-responsive" alt="destaques">
 			    </div>';
 
 }

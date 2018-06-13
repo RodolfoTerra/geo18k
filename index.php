@@ -26,9 +26,15 @@
 
 		<link rel="shortcut icon" href="<?php echo $local; ?>web/images/favicon.png">
 
-		<script src="<?php echo $local; ?>web/bootstrap/jquery/jquery-3.2.0.min.js"></script>
-		<script src="<?php echo $local; ?>web/bootstrap/js/bootstrap.min.js"></script>
-		<script src="<?php echo $local; ?>web/datatable/datatables.min.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script src="web/datatable/datatables.min.js"></script>
 
 		<script type="text/javascript">
 		jQuery(document).ready(function(){

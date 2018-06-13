@@ -136,18 +136,18 @@
 	$AN880 = "Anel em ouro 18k com 22 diamantes de 1 mm e gema redonda.";
 	$NA725 = "Anel em ouro amarelo e diamantes.";
 	$AN802 = "Samovar - Anel em ouro amarelo e diamantes.";
-	$AN765A= "PAnel em ouro 18k com 42 diamantes de (0,5pt).";
-	$AN919 = "PAnel em ouro 18k com 48 diamantes de (0,5 pt).";
-	$AN899 = "PAnel em ouro 18k com 21 diamantes de (0,5 pt).";
-	$AN906 = "PAnel em ouro 18k com 11 diamantes de 1 pt.";
-	$AN908 = "PAnel em ouro 18k com 32 diamantes de 0,5 pt.";
-	$AN911 = "PAnel em ouro 18k com 4 diamantes de 0,5 pt.";
-	$AN912 = "PAnel em ouro 18k com 18 diamantes de 0,5 pt.";
-	$AN913 = "Anel em ouro 18k com 34 diamantes de 0,5 pt.";
-	$AN915 = "Panel em ouro 18k com 21 diamantes de 0,5 pt.";
-	$AN916 = "Panel em ouro 18k com 24 diamantes de 0,5 pt.";
-	$AN917 = "Panel em ouro 18k com 18 diamantes de 0,5 pt.";
-	$AN918 = "Panel em ouro 18k com 19 diamantes de 0,5 pt.";
+	$AN765A= "Anel em ouro 18k com 42 diamantes de (0,5pt).";
+	$AN919 = "Anel em ouro 18k com 48 diamantes de (0,5 pt).";
+	$AN899 = "Anel em ouro 18k com 21 diamantes de (0,5 pt).";
+	$AN906 = "Anel em ouro 18k com 11 diamantes de 1 pt.";
+	$AN908 = "Anel em ouro 18k com 32 diamantes de 0,5 pt.";
+	$AN911 = "Anel em ouro 18k com 4 diamantes de 0,5 pt.";
+	$AN912 = "Anel em ouro 18k com 18 diamantes de 0,5 pt.";
+	$AN913 = "Anel em ouro 18k com 34 diamantes de 0,5 pt.";
+	$AN915 = "anel em ouro18k com 21 diamantes de 0,5 pt.";
+	$AN916 = "anel em ouro 18k com 24 diamantes de 0,5 pt.";
+	$AN917 = "anel em ouro 18k com 18 diamantes de 0,5 pt.";
+	$AN918 = "anel em ouro 18k com 19 diamantes de 0,5 pt.";
 
 	#BRINCOS
 	$BR241 = "Brinco em ouro amarelo e diamantes.";
@@ -198,10 +198,10 @@
 	$BR875 = "Brinco em ouro 18k com 36 diamantes de 1 mm.";
 	$BR880 = "Brinco em ouro 18k com 54 diamantes de 1 mm e gema redonda.";
 	$BR805 = "Moscovita - Brincos em ouro 18k e diamantes.";
-	$BR899 = "Vicenza - Brincos em ouro 18k com 22 diamantes de 0,5 pt.";
-	$BR907 = "Vicenza - Brincos em ouro 18k com 16 diamantes de 0,5 pt.";
-	$BR911 = "Vicenza - Brincos em ouro 18k com 8 diamantes de 0,5 pt.";
-	$BR918 = "Vicenza - Brincos em ouro 18k com 26 diamantes de 0,5 pt.";
+	$BR899 = "Vicenza - Brincos em ouro 18k com 22 diamantes de 0,5 pt.";
+	$BR907 = "Vicenza - Brincos em ouro 18k com 16 diamantes de 0,5 pt.";
+	$BR911 = "Vicenza - Brincos em ouro 18k com 8 diamantes de 0,5 pt.";
+	$BR918 = "Vicenza - Brincos em ouro 18k com 26 diamantes de 0,5 pt.";
 
 	#CONJUNTOS
 	$C562 = "Conjunto de brinco e colar em nefrita e diamantes em ouro amarelo 18k.";
@@ -232,9 +232,9 @@
 	#PULSEIRAS
 	$PUL81 = "Pulseira com 18 diamantes de 0,5 pt.";
 	$PUL19 = "Pulseira em ouro amarelo e diamantes.";
-	$PUL17 = "Pulseira em ouro 18k com 28 diamantes de 0,5 pt.";
-	$PUL494 = "Pulseira em ouro 18k com 18 diamantes de 0,5 pt.";
-	$PUL798CA = "Pulseira em ouro 18k com 24 diamantes de 0,5 pt.";
+	$PUL17 = "Pulseira em ouro 18k com 28 diamantes de 0,5 pt.";
+	$PUL494 = "Pulseira em ouro 18k com 18 diamantes de 0,5 pt.";
+	$PUL798CA = "Pulseira em ouro 18k com 24 diamantes de 0,5 pt.";
 
 
 
