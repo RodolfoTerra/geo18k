@@ -13,10 +13,10 @@
 			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuSelva; ?>"><img src="<?php echo $image2; ?>web/images/banner/city-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="city"></a>
 			    </div>
 
-			    <div class="item">
+<!-- 			    <div class="item">
 			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuLima; ?>"><img src="<?php echo $image2; ?>web/images/banner/del-lima-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>
-
+ -->
 			    <div class="item">
 			      <a href="<?php echo $idioma; ?>-<?php echo $lnkMenuDunas; ?>"><img src="<?php echo $image2; ?>web/images/banner/dunas-<?php echo $idioma; ?>.jpg" class="img-responsive" alt="del-lima"></a>
 			    </div>

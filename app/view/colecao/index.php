@@ -684,7 +684,7 @@
 			<?php if($link === "-Vicenza") { ?>
 			<div id="content" class="container pull-center">
 
-<!-- 				<div class="col-md-12">
+				<div class="col-md-12">
 
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
@@ -727,7 +727,7 @@
 					</div>	
 
 				</div>
- -->
+
 				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
@@ -771,7 +771,7 @@
 
 				</div>
 
-<!-- 				<div class="col-md-12">
+				<div class="col-md-12">
 					<div class="grid col-sm-6 col-md-3">
 						<figure class="effect-zoe">
 							<img src="<?php echo $image2; ?>web/images/produtos/Pulseiras/PUL17.png" class="img-responsive" />
@@ -807,7 +807,7 @@
 					</div>	
 
 				</div>
- -->
+
 			</div>
 			<?php } ?>
 
